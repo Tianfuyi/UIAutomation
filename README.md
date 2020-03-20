@@ -1,8 +1,7 @@
 # java webdriver 关键字驱动自动化测试
 ###   行业内许多公司认为UI自动化收益较低 不能发现新的问题产出低，但在项目迭代回归场景下的确能大大减少重复验证，且效率高。
 
-###   框架结构
-![](https://github.com/Tianfuyi/UIAutomation/blob/master/img/frame.jpg)
+
    
 
 ###   目前传统UI自动化框架会遇到两个问题：
@@ -13,6 +12,8 @@
        维护原有用例在一定程度上解决以上两个问题 （本框架只是一个思路，后期还有诸多需要完善的地方 ），并且框架平台化
        有扩展性，方便用例复用。
 
+###   框架结构
+![](https://github.com/Tianfuyi/UIAutomation/blob/master/img/frame.jpg)
 
 ##   1.项目概述
 ###   使用目前较为流行的UI自动化测试工具Webdriver
@@ -69,6 +70,6 @@ Pageopreation 文件下
 ##    4 用例维护
 ![](https://github.com/Tianfuyi/UIAutomation/blob/master/img/case.jpg)
 
-测试报告：
+##    5 测试报告
  本地没有安装extentx 弄个extentx 界面样例 实际结果有错误结果 用例通过占比 错误提示及错误截图
 ![](https://github.com/Tianfuyi/UIAutomation/blob/master/img/report.jpg)
