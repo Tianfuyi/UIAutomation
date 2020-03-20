@@ -2,7 +2,7 @@
 ###   行业内许多公司认为UI自动化收益较低 不能发现新的问题产出低，但在项目迭代回归场景下的确能大大减少重复验证，且效率高。
 
 ###   框架结构
-![](https://github.com/Tianfuyi/UIAutomation/tree/master/img/frame.jpg)
+![Alt text](https://github.com/Tianfuyi/UIAutomation/tree/master/img/frame.jpg)
 
 ###   目前传统UI自动化框架会遇到两个问题：
        1在项目中维护用例，如遇到场景复杂，测试分支多的情况下，导致用例臃肿，增加维护成本。
@@ -23,7 +23,8 @@
 ###      2.1 程序主入口配置相关
 
 
-###      2.2 执行本地执行:run UISomkingTest.java
+###      2.2 执行:
+             执行本地执行run UISomkingTest.java
              Jenkins 执行：jenkins 配置maven 命令test 执行 
 ###      2.3 配置文件：
            Resource/framework.properties
