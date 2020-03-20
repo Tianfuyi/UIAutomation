@@ -3,7 +3,7 @@
 
 ###   框架结构
 ![](https://github.com/Tianfuyi/UIAutomation/blob/master/img/frame.jpg)
-   ![](https://github.com/Tianfuyi/UIAutomation/blob/master/img/case.jpg)
+   
 
 ###   目前传统UI自动化框架会遇到两个问题：
        1在项目中维护用例，如遇到场景复杂，测试分支多的情况下，导致用例臃肿，增加维护成本。
@@ -22,7 +22,7 @@
 
 ##   2.使用说明：
 ###      2.1 程序主入口配置相关
-
+![](https://github.com/Tianfuyi/UIAutomation/blob/master/img/excute.jpg)
 
 ###      2.2 执行:
              执行本地执行run UISomkingTest.java
@@ -64,10 +64,11 @@ Abstractbusiness文件下
 Pageopreation 文件下
 
 ##     3 元素加载
-
+![](https://github.com/Tianfuyi/UIAutomation/blob/master/img/element.jpg)
 
 ##    4 用例维护
-
+![](https://github.com/Tianfuyi/UIAutomation/blob/master/img/case.jpg)
 
 测试报告：
-
+ 本地没有安装extentx 弄个extentx 界面样例 实际结果有错误结果 用例通过占比 错误提示及错误截图
+![](https://github.com/Tianfuyi/UIAutomation/blob/master/img/report.jpg)
