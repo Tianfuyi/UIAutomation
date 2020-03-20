@@ -3,6 +3,7 @@
 
 ###   框架结构
 ![](https://github.com/Tianfuyi/UIAutomation/blob/master/img/frame.jpg)
+   ![](https://github.com/Tianfuyi/UIAutomation/blob/master/img/case.jpg)
 
 ###   目前传统UI自动化框架会遇到两个问题：
        1在项目中维护用例，如遇到场景复杂，测试分支多的情况下，导致用例臃肿，增加维护成本。
