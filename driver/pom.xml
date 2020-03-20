@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>testframework</artifactId>
+        <groupId>com.zetyun.testframework</groupId>
+        <version>1.0.2</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.zetyun.driver</groupId>
+    <artifactId>driver</artifactId>
+    <packaging>jar</packaging>
+
+    <!-- 项目所有使用第三方依赖包版本统一声明 -->
+    <properties>
+        <org.apache.poi.version>3.9</org.apache.poi.version>
+        <org.apache.commons.version>3.2.1</org.apache.commons.version>
+        <org.apache.httpclient.version>4.5.5</org.apache.httpclient.version>
+        <rabbitmq.version>3.6.3</rabbitmq.version>
+        <com.alibaba.fastjson.version>1.2.7</com.alibaba.fastjson.version>
+        <logback.version>1.2.3</logback.version>
+        <com.aventstack.extentreports.version>3.1.5</com.aventstack.extentreports.version>
+        <org.java-websocket.version>1.3.8</org.java-websocket.version>
+    </properties>
+
+    <!-- 依赖包声明 -->
+    <dependencies>
+        <!-- poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${org.apache.poi.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${org.apache.poi.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>${org.apache.httpclient.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.directory.studio/org.apache.commons.collections -->
+        <dependency>
+            <groupId>org.apache.directory.studio</groupId>
+            <artifactId>org.apache.commons.collections</artifactId>
+            <version>${org.apache.commons.version}</version>
+        </dependency>
+
+        <!-- mqmessage -->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>${rabbitmq.version}</version>
+        </dependency>
+
+        <!-- alibaba fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${com.alibaba.fastjson.version}</version>
+        </dependency>
+
+        <!-- logback -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+
+        <!-- extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${com.aventstack.extentreports.version}</version>
+        </dependency>
+
+        <!-- java-websocket -->
+        <dependency>
+            <groupId>org.java-websocket</groupId>
+            <artifactId>Java-WebSocket</artifactId>
+            <version>${org.java-websocket.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <!-- 打包jar时生成依赖，执行命令 mvn package -->
+                <!-- 安装jar到本地仓库 -->
+                <!-- mvn install:install-file -Dfile=driver-1.0.2-jar-with-dependencies.jar -DgroupId=com.zetyun.driver -DartifactId=driver -Dversion=1.0.2 -Dpackaging=jar -->
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>assembly</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

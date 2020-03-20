@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+import os
+def main(params,inputs,outputs):
+    os.system('hdfs dfs -ls /user')
+ os.system("beeline -u 'jdbc:hive2://192.168.1.87:10000/default' -e 'show tables'")

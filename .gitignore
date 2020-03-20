@@ -1,0 +1,69 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/apitest/apitest.iml
+.gitignore
+.idea/
+apitest/apitest.iml
+apitest/target/generated-test-sources/
+apitest/target/maven-archiver/
+apitest/target/maven-status/
+apitest/target/test-classes/Features/PipesTest.feature
+driver/driver.iml
+driver/target/generated-sources/
+driver/target/maven-archiver/
+driver/target/maven-status/
+uitest/target/generated-test-sources/
+uitest/target/maven-status/
+uitest/uitest.iml
+/apitest/target/
+/apitest/reports/
+/.idea/
+/driver/.idea/
+/driver/target/
+/driver/driver.iml
+/uitest/reports/
+/uitest/target/
+/uitest/uitest.iml
+!/.gitignore
+/uitest/target/test-classes/com/zetyun/uitest/appmodules/Action.class
+/.idea/compiler.xml
+/.idea/encodings.xml
+/apitest/target/classes/com/zetyun/business/api/AbstractProcess.class
+/driver/target/classes/com/zetyun/driver/compare/AssertAdapt.class
+/apitest/target/test-classes/com/zetyun/apitest/steps/dasserver/DasServerScenario.class
+/driver/target/classes/com/zetyun/datatemplate/elementtemplate/ElementTemplate.class
+/driver/target/classes/com/zetyun/driver/http/HttpClient.class
+/apitest/target/test-classes/com/zetyun/apitest/MLServerApiTest.class
+/apitest/target/test-classes/com/zetyun/apitest/steps/mlserver/MLServerScenario.class
+/driver/target/classes/com/zetyun/datatemplate/scenariotemplate/ScenarioDataTemplate.class
+/driver/target/classes/com/zetyun/driver/string/StringParse.class
+/driver/target/classes/com/zetyun/datatemplate/testresulttemplate/TestResultTemplate.class
+/apitest/target/test-classes/framework.properties
+/apitest/test.log
+/driver/target/classes/com/zetyun/driver/interpreter/Interpreter.class
+uitest/Download/
+uitest/ScreenShots/
+uitest/Template/~$ModelRepositoryDataTemplate.xlsx
+uitest/Template/~$ModelRepositoryElementsTemplate.xlsx
+/apitest/target/test-classes/com/zetyun/apitest/MlServerApiTest.class
+/apitest/target/test-classes/com/zetyun/apitest/steps/mlserver/MlServerScenario.class

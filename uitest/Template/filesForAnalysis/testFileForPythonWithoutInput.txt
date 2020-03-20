@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+
+print(123)
+def main(params, inputs, outputs):
+print(456)

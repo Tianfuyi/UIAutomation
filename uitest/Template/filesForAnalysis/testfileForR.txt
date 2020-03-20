@@ -1,0 +1,9 @@
+print('OK')
+main <- function(rt){
+  	param<- rt$Param$param1$Val
+input<- rt$Input$input1$Val
+output<-rt$Output$output1$Val
+print(input)
+write.csv("abc",output)
+print("OK")
+

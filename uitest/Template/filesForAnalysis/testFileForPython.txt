@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+print(123)
+def main(params, inputs, outputs):
+print('the param is %s%s'%(params.param1,'\n'))
+print('the input is %s%s'%(inputs.input1,'\n'))
+print('the output is %s%s'%(outputs.output1,'\n'))
+f=open(inputs.input1,'r+')
+old_content=f.read()
+print('the input content is %s%s'%(old_content,'\n'))
+f.seek(0,0)
+new_content=f.read()
+f.close()
+f=open(outputs.output1,'w')
+f.write('\n')
+f.close()
