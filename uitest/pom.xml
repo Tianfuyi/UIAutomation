@@ -15,7 +15,7 @@
 
     <properties>
         <selenium.version>2.47.1</selenium.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <cucumber.version>2.3.1</cucumber.version>
     </properties>
 
