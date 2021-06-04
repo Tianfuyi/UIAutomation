@@ -17,7 +17,7 @@
     <properties>
         <org.apache.poi.version>3.9</org.apache.poi.version>
         <org.apache.commons.version>3.2.1</org.apache.commons.version>
-        <org.apache.httpclient.version>4.5.5</org.apache.httpclient.version>
+        <org.apache.httpclient.version>4.5.13</org.apache.httpclient.version>
         <rabbitmq.version>3.6.3</rabbitmq.version>
         <com.alibaba.fastjson.version>1.2.7</com.alibaba.fastjson.version>
         <logback.version>1.2.3</logback.version>
