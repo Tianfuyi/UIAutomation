@@ -19,7 +19,7 @@
         <org.apache.commons.version>3.2.1</org.apache.commons.version>
         <org.apache.httpclient.version>4.5.5</org.apache.httpclient.version>
         <rabbitmq.version>3.6.3</rabbitmq.version>
-        <com.alibaba.fastjson.version>1.2.7</com.alibaba.fastjson.version>
+        <com.alibaba.fastjson.version>1.2.83</com.alibaba.fastjson.version>
         <logback.version>1.2.3</logback.version>
         <com.aventstack.extentreports.version>3.1.5</com.aventstack.extentreports.version>
         <org.java-websocket.version>1.3.8</org.java-websocket.version>
